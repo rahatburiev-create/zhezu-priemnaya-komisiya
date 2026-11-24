@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Направления обучения, жизнь студентов и план поступления в ЖезУ" name="description"/>
+  <title>
+   ЖезУ — большое будущее начинается с тебя
+  </title>
+  <style>
+   /* styles.css */
+
+:root{--forest:#174c3b;--ink:#203e33;--muted:#758178;--lime:#d7ee91;--cream:#fafaf4;--line:#e1e6dc;--soft:#eff2e8;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:105px}body{margin:0;background:var(--cream);color:var(--ink);font:15px/1.6 Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}button,input,textarea,select{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button,a,input,select,summary,textarea{outline-offset:5px}a{color:inherit;text-decoration:none}button{cursor:pointer}button:disabled{cursor:wait;opacity:.6}img{display:block;max-width:100%}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:600;line-height:1.12;letter-spacing:-.045em}svg{flex-shrink:0}button{background:none;border:0;color:inherit}section[id]{scroll-margin-top:100px}.wrap{max-width:1280px;width:calc(100% - 100px);margin-inline:auto}.utility{background:#eef1e6;border-bottom:1px solid #e7eadf;font-size:11px;color:#657665}.utility-inner{height:32px;display:flex;align-items:center;justify-content:space-between}.utility-inner>span,.utility-inner>div,.utility a{display:flex;gap:7px;align-items:center}.utility-inner>div{gap:20px}.utility-line{height:10px;width:1px;background:#c7d0c1}.site-header{background:rgba(250,250,244,.97);position:sticky;top:0;z-index:30;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.header-inner{height:90px;display:flex;align-items:center;gap:35px}.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}.logo-box{width:51px;height:51px;display:grid;place-items:center}.logo-box img{width:100%;height:100%;object-fit:contain;transform:scale(1.35)}.brand b{font-size:30px;letter-spacing:-1.5px;line-height:1}.brand-dot{color:#80a25c}.brand small{display:block;font-size:9px;line-height:1.2;color:#708172;margin-top:7px}.main-nav{display:flex;align-items:center;justify-content:center;gap:29px;margin-left:auto}.main-nav a{font-size:12px;white-space:nowrap;transition:color .2s}.main-nav a:hover{color:#76923d}.button{display:inline-flex;align-items:center;justify-content:center;gap:22px;background:var(--forest);color:#fff;border-radius:7px;padding:17px 23px;font-size:13px;font-weight:600;line-height:1.4;transition:transform .2s,background .2s}.button:hover{background:#256149;transform:translateY(-2px)}.button-small{padding:12px 18px;gap:15px;font-size:12px}.header-cta{margin-left:14px}.menu-toggle{display:none}.text-link{display:inline-flex;align-items:center;gap:12px;font-size:13px;font-weight:600;padding:5px 0}.text-link:hover{color:#688c35}.hero{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:48px;padding-top:53px;padding-bottom:60px;min-height:655px}.eyebrow{display:block;font-size:10px;letter-spacing:1.7px;font-weight:600;color:#69815c;line-height:1.5}.hero .eyebrow{display:flex;align-items:center;gap:9px;font-size:9px;letter-spacing:1.4px}.tiny-star{color:#78983d;font-size:22px}.hero h1{font-size:clamp(48px,5.45vw,76px);letter-spacing:-4.8px;margin-top:18px;line-height:1.04;font-weight:600;position:relative}.hero-underline{position:relative;z-index:1;white-space:nowrap}.hero-underline:after{content:'';position:absolute;left:-5px;right:-6px;bottom:3px;height:20px;z-index:-1;background:var(--lime);transform:rotate(-2deg);border-radius:50% 0 30% 0}.hero-spark{display:inline-block;font-size:76px;font-weight:400;color:#7b9c49;vertical-align:middle;margin-left:34px;transform:rotate(-12deg)}.hero-intro{font-size:14px;line-height:1.8;color:#748174;margin-top:25px;max-width:450px}.hero-actions{display:flex;align-items:center;gap:26px;margin-top:28px}.hero-foot{display:flex;align-items:center;gap:15px;margin-top:37px;color:#7e897c;font-size:11px}.hero-location{display:flex;align-items:center;gap:6px;color:#455f4c}.hero-foot-line{height:13px;width:1px;background:#d2d9ca}.hero-visual{height:505px;position:relative;padding:0 6px 19px 0}.hero-photo{height:100%;width:100%;object-fit:cover;object-position:55% center;border-radius:150px 12px 12px 12px}.photo-outline{position:absolute;inset:11px -9px 7px 16px;border:1px solid #b9ca9d;border-radius:150px 12px 12px 12px;transform:rotate(2.5deg);z-index:-1}.photo-top{position:absolute;right:27px;top:20px;background:#fffdf2ed;padding:8px 13px;border-radius:30px;display:flex;align-items:center;gap:7px;font-size:10px}.live-dot{height:6px;width:6px;background:#83a650;border-radius:50%}.photo-card{position:absolute;left:-25px;right:31px;bottom:40px;background:#fffef4f2;backdrop-filter:blur(8px);display:flex;align-items:center;gap:13px;border-radius:9px;padding:18px 20px;box-shadow:0 12px 30px #0b24131a}.photo-card-icon{display:grid;place-items:center;background:#e3edcb;color:#496b38;border-radius:50%;height:44px;width:44px}.photo-card b{display:block;font-size:15px;letter-spacing:-.4px}.photo-card span:not(.photo-card-icon){font-size:10px;color:#6b7b6b;display:block;margin-top:3px}.photo-card a{margin-left:auto;border:1px solid #cdd6bf;border-radius:50%;height:35px;width:35px;display:grid;place-items:center}.photo-caption{position:absolute;right:8px;bottom:-3px;font-size:8px;color:#8a9382}.belief-strip{border-block:1px solid var(--line);background:#f0f3e9}.belief-inner{display:flex;align-items:center;justify-content:space-between;gap:25px;padding-block:24px}.belief-inner>span{font-size:9px;letter-spacing:1.3px;color:#78906d}.belief-inner b{display:flex;align-items:center;gap:11px;font-size:12px;font-weight:500}.belief-inner svg{width:18px;color:#66844a}.section{padding-block:83px}.section-top{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:38px}h2{font-size:42px;line-height:1.16;letter-spacing:-2px}.section h2{margin-top:15px}.muted-heading{color:#93a089}.section-intro{font-size:13px;color:#7b887a;max-width:320px;line-height:1.85;padding-bottom:2px}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:38px;margin-top:45px}.why-grid article{padding-right:28px;border-right:1px solid var(--line)}.why-grid article:last-child{border:0;padding-right:0}.feature-icon{display:inline-grid;place-items:center;background:#e9efdd;color:#658641;width:46px;height:46px;border-radius:10px}.feature-icon svg{width:23px}.why-grid h3{font-size:19px;letter-spacing:-.6px;margin:21px 0 12px}.why-grid p{font-size:12px;color:#7b8879;line-height:1.85;max-width:305px}.why-grid a{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:600;margin-top:24px}.programs-section{background:#f0f2e9;border-block:1px solid #e6eadf}.programs-section .section-top{margin-bottom:31px}.serif{font-family:Georgia,serif;font-style:italic;font-weight:400}.program-controls{display:flex;gap:20px;justify-content:space-between;margin-bottom:25px}.filter-tabs{display:flex;gap:5px;align-items:center;flex-wrap:wrap}.filter-tabs button{padding:9px 13px;border-radius:6px;font-size:11px;color:#71806c;white-space:nowrap}.filter-tabs button.active{color:#fff;background:var(--forest)}.filter-tabs button:hover:not(.active){background:#e5eadb}.search-field{display:flex;align-items:center;gap:9px;min-width:190px;border-bottom:1px solid #ccd6c3;color:#7d8c75}.search-field input{width:175px;outline:0;border:0;background:transparent;font-size:11px;padding:9px 0;color:var(--ink)}.program-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.program-card{padding:25px;background:#fafbf6;border:1px solid #e4e8dd;border-radius:9px;display:flex;flex-direction:column;min-height:320px;transition:border-color .2s,transform .2s}.program-card:hover{border-color:#9bb67b;transform:translateY(-3px)}.program-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}.program-icon{color:#5c7e42}.program-cat{font-size:9px;border:1px solid #d6dfcb;padding:4px 8px;border-radius:30px;color:#7a8b6a}.program-tag{font-size:9px;color:#82966e;margin-bottom:8px}.program-card h3{font-size:24px;letter-spacing:-.9px;line-height:1.12;max-width:260px;margin-bottom:13px}.program-card p{font-size:11px;line-height:1.8;color:#829077;flex:1}.program-card-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #e4e8dd;margin-top:22px;padding-top:17px}.program-card-bottom a{font-size:10px;display:flex;align-items:center;gap:7px}.program-card-bottom button{width:31px;height:31px;background:#edf2e1;border-radius:50%;display:grid;place-items:center}.program-card-bottom button:hover{background:var(--lime)}.program-help{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:26px;font-size:11px;color:#7b8b6e}.program-help b{color:#3b583a;margin-right:5px}.program-help .text-link{font-size:11px;flex-shrink:0}.empty-search{grid-column:1/-1;padding:50px;text-align:center}.empty-search svg{margin:auto auto 20px}.empty-search p{margin:15px}.life-section{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:75px;padding-block:95px}.life-art{position:relative;height:490px}.life-art img{width:100%;height:100%;object-fit:cover;object-position:12% center;border-radius:10px 10px 120px 10px}.life-sticker{position:absolute;right:-21px;bottom:31px;transform:rotate(-6deg);font-size:29px;line-height:1.03;background:var(--lime);padding:27px 50px 28px 26px;border-radius:4px;letter-spacing:-1px;box-shadow:1px 8px 15px #2b3f2220}.life-sticker i{font-family:Georgia,serif;font-weight:400}.life-sticker svg{position:absolute;right:14px;top:15px}.life-art-label{position:absolute;top:23px;left:20px;color:#fffdf4;font-size:9px;letter-spacing:1.5px}.life-copy h2{font-size:37px;letter-spacing:-1.7px;margin-top:15px}.life-lead{font-size:13px;color:#7a8974;margin-top:20px;line-height:1.85}.life-rows{margin:27px 0}.life-rows>div{display:flex;gap:17px;align-items:flex-start;border-top:1px solid var(--line);padding:17px 0}.life-rows svg{color:#7b975a;margin-top:2px}.life-rows h3{font-size:13px;letter-spacing:-.2px;margin-bottom:5px}.life-rows p{font-size:11px;color:#87927e;line-height:1.7}.life-copy .text-link{font-size:12px}.admission-section{background:#f0f3e9;border-block:1px solid var(--line)}.admission-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:90px}.steps{padding-top:8px}.step{display:flex;gap:25px;position:relative;padding-bottom:35px}.step:last-child{padding-bottom:0}.step:not(:last-child):before{position:absolute;content:'';height:calc(100% - 40px);border-left:1px solid #d0dac3;left:20px;top:47px}.step>span{height:42px;width:42px;flex-shrink:0;border:1px solid #ced9bf;border-radius:50%;display:grid;place-items:center;font-size:12px;color:#738b59}.step h3{font-size:18px;letter-spacing:-.5px;margin-top:8px;margin-bottom:10px}.step p{font-size:12px;color:#7d8c73;line-height:1.85;max-width:360px}.checklist{background:#fffef8;border:1px solid #dfe6d3;border-radius:10px;padding:26px 30px}.checklist-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}.check-count{font-size:10px;color:#748762;border:1px solid #e3e9d9;border-radius:30px;padding:4px 8px}.checklist h3{font-size:23px;letter-spacing:-.7px;margin-bottom:9px}.checklist>p{font-size:11px;line-height:1.8;color:#8a967e}.progress-track{height:4px;border-radius:5px;background:#eef1e8;margin-block:18px}.progress-track span{display:block;background:#93b85a;height:100%;transition:width .25s;border-radius:5px}.doc-list{display:grid;gap:12px}.doc-list label{display:flex;align-items:center;gap:11px;font-size:12px;cursor:pointer}.doc-list input{accent-color:var(--forest);width:17px;height:17px;margin:0}.doc-list input:checked+span{color:#8b9980;text-decoration:line-through}.check-download{display:flex;align-items:center;justify-content:center;gap:10px;border:1px solid #d2dfc1;border-radius:6px;padding:10px;width:100%;margin-block:22px 13px;font-size:11px}.check-download:hover{background:#eff4e5}.checklist small{font-size:9px;line-height:1.7;color:#8b967f;display:block}.checklist small a{text-decoration:underline}.admission-note{display:flex;gap:11px;align-items:center;border-top:1px solid #dce4d2;margin-top:31px;padding-top:22px;color:#789365;font-size:10px}.admission-note svg{color:#78965b}.admission-note b{font-weight:500;color:#49653c}.admission-note a{text-decoration:underline;display:inline-flex;align-items:center;gap:2px}.faq-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:85px}.faq-section>div>p{font-size:12px;color:#809077;margin:20px 0 25px}.faq-list details{border-bottom:1px solid var(--line)}.faq-list details:first-child{border-top:1px solid var(--line)}.faq-list summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-size:13px;gap:20px;line-height:1.5;font-weight:500;padding:21px 0}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary span{font-size:22px;font-weight:300;color:#7c9361}.faq-list details[open] summary span{transform:rotate(45deg)}.faq-list details p{font-size:12px;color:#809077;line-height:1.9;padding-bottom:20px;padding-right:25px}.services-section{background:#eef2e5;border-block:1px solid var(--line);padding:37px 0}.services-section>.wrap{display:flex;align-items:center;gap:50px;justify-content:space-between}.services-section h2{font-size:24px;letter-spacing:-.8px;margin-top:9px}.services-section .eyebrow{font-size:8px}.service-links{display:flex;gap:12px}.service-links a{display:flex;align-items:center;gap:12px;background:#fcfcf5;border:1px solid #e0e7d6;padding:17px;border-radius:8px;min-width:190px}.service-links a>svg:first-child{color:#7b9958}.service-links a>svg:last-child{margin-left:15px;color:#5d7d3f}.service-links b{font-size:12px;display:block}.service-links small{font-size:9px;color:#8a977d;display:block;margin-top:2px}.contact-section{display:flex;gap:50px;justify-content:space-between;align-items:center;background:var(--forest);border-radius:12px;padding:48px 55px;margin-block:68px 35px;color:#fffdee;position:relative;overflow:hidden}.contact-main{position:relative;z-index:1}.contact-main .eyebrow{font-size:8px;color:#b7cd99}.contact-main h2{font-size:44px;letter-spacing:-2px;margin-top:13px}.contact-main p{font-size:12px;color:#bed0bd;line-height:1.8;margin:17px 0 24px}.button-lime{background:var(--lime);color:var(--forest);font-size:12px;padding:14px 19px}.button-lime:hover{background:#e2f5ac}.contact-details{position:relative;z-index:1;min-width:280px}.contact-title{font-size:8px;letter-spacing:1.3px;color:#aec69c;display:block;margin-bottom:17px}.contact-details a,.contact-details p{display:flex;gap:9px;align-items:flex-start;font-size:11px;margin-top:14px;color:#c1d2be}.contact-details .contact-phone{font-size:22px;font-weight:500;color:#fffdec;letter-spacing:-.6px;margin-block:0 17px}.contact-details svg{margin-top:1px;color:#a2bf87}.contact-details .contact-official{font-size:9px;color:#c3d4b9;margin-top:21px;text-decoration:underline}.contact-decoration{position:absolute;font-size:370px;color:#24604a;line-height:1;right:160px;top:-80px;transform:rotate(-10deg);pointer-events:none}.footer{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:14px 0 36px}.footer>div:first-child{display:flex;align-items:center;gap:17px}.footer-wordmark{font-size:28px;letter-spacing:-1.8px;font-weight:700}.footer p{font-size:8px;color:#86917b;line-height:1.6}.footer>span{font-size:9px;color:#96a18b}.footer-links{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:flex-end;max-width:400px}.footer-links a,.footer-links button{display:flex;align-items:center;gap:5px;color:#849376;font-size:9px;padding:0}.skip-link{position:absolute;left:20px;top:-100px;z-index:100;background:#fff;padding:15px}.skip-link:focus{top:10px}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0)}.consult-dialog{border:1px solid var(--line);border-radius:15px;width:min(570px,calc(100% - 30px));max-height:90dvh;padding:38px;background:var(--cream);color:var(--ink);box-shadow:0 30px 100px #10261844}.consult-dialog::backdrop{background:#0f2e23aa;backdrop-filter:blur(4px)}.dialog-close{position:absolute;right:17px;top:17px;border-radius:50%;width:30px;height:30px;display:grid;place-items:center}.dialog-close:hover{background:#e4ebd9}.consult-dialog h2{font-size:29px;letter-spacing:-1.1px;margin-top:10px}.dialog-intro{font-size:12px;color:#7c8d72;line-height:1.8;margin-top:12px}.consult-form{display:flex;flex-direction:column;gap:14px;margin-top:24px}.consult-form label{display:flex;flex-direction:column;gap:7px;font-size:11px;font-weight:600;color:#58704b}.consult-form label>span{font-weight:400}.consult-form input:not([type=checkbox]),.consult-form select,.consult-form textarea{width:100%;background:#fffef8;border:1px solid #d7e1ca;border-radius:6px;padding:11px;font-size:12px;color:var(--ink)}.consult-form textarea{resize:vertical}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field-hint{font-size:9px;color:#839477;margin-top:-8px}.consult-form .consent-label{flex-direction:row;align-items:flex-start;gap:9px;font-size:10px;font-weight:400;line-height:1.65}.consent-label input{accent-color:var(--forest);margin-top:3px}.consent-label button{text-decoration:underline;padding:0}.form-fine{font-size:9px;line-height:1.7;color:#8a977e}.submit-button{width:100%;padding:13px}.form-error{color:#a43e31;background:#faeee8;border-radius:5px;padding:9px;font-size:11px}.success-panel{text-align:center;padding-block:12px}.success-icon{display:grid;place-items:center;background:var(--lime);width:70px;height:70px;border-radius:50%;margin:0 auto 22px}.success-panel>p{font-size:12px;line-height:1.8;color:#7c8d72;margin:18px 0}.reference{background:#edf2e3;padding:14px;border-radius:7px;font-size:10px;color:#7d8f70;overflow-wrap:anywhere}.reference b{font-weight:500;font-size:12px;color:var(--ink)}.success-panel .button{margin-top:20px}.privacy-backdrop{position:fixed;inset:0;background:#102a20b3;z-index:80;display:grid;place-items:center;padding:20px}.privacy-panel{position:relative;padding:36px;background:var(--cream);border-radius:12px;max-width:540px;max-height:90dvh;overflow:auto}.privacy-panel h2{font-size:27px;letter-spacing:-1px;margin-block:12px 20px}.privacy-panel p{font-size:12px;color:#728268;margin-block:15px;line-height:1.9}.privacy-panel p a{text-decoration:underline}.privacy-panel .button{margin-top:10px}
+@media(min-width:1450px){.hero{gap:75px;padding-top:65px;padding-bottom:70px}.hero-visual{height:540px}}@media(max-width:1150px){.wrap{width:calc(100% - 64px)}.header-inner{gap:20px}.main-nav{gap:20px}.main-nav a{font-size:11px}.header-cta{margin-left:0}.hero{gap:30px;min-height:590px}.hero h1{font-size:60px;letter-spacing:-3.5px}.hero-visual{height:465px}.hero-intro{font-size:12px}.hero-actions{gap:18px}.hero-actions .button{font-size:11px;gap:13px;padding:15px 17px}.hero-actions .text-link{font-size:11px}.hero-spark{margin-left:20px;font-size:65px}.belief-inner{gap:15px}.belief-inner b{font-size:10px}.belief-inner>span{font-size:8px}.why-grid{gap:26px}.why-grid h3{font-size:17px}.program-controls{flex-wrap:wrap}.search-field{margin-left:auto}.program-grid{gap:13px}.program-card{padding:22px}.program-card h3{font-size:21px}.program-cat{font-size:8px}.life-section{gap:50px}.life-copy h2{font-size:32px}.life-art{height:465px}.admission-grid{gap:50px}.services-section>.wrap{gap:20px;flex-wrap:wrap}.service-links{flex:1}.service-links a{flex:1;min-width:170px}.contact-section{padding:40px}.contact-main h2{font-size:38px}.footer-links{max-width:240px;gap:10px}}
+@media(max-width:850px){.wrap{width:calc(100% - 40px)}.header-inner{height:77px}.main-nav{display:none}.main-nav.is-open{position:absolute;top:77px;left:0;right:0;background:var(--cream);display:flex;flex-direction:column;gap:0;align-items:stretch;border-bottom:1px solid var(--line);padding:12px 20px;box-shadow:0 10px 20px #203e3310}.main-nav.is-open a{padding:14px;font-size:14px}.header-cta{margin-left:auto}.menu-toggle{display:grid;place-items:center;width:36px;height:36px}.hero{padding-top:40px;gap:24px;padding-bottom:45px;min-height:0}.hero h1{font-size:48px;letter-spacing:-2.8px}.hero .eyebrow{font-size:7px;letter-spacing:.8px}.hero-spark{font-size:48px;margin-left:15px}.hero-visual{height:400px}.photo-top{font-size:8px;right:17px;padding:7px 10px}.photo-card{left:-16px;right:18px;padding:13px;gap:8px;bottom:35px}.photo-card b{font-size:12px}.photo-card span:not(.photo-card-icon){font-size:8px}.photo-card-icon{width:33px;height:33px}.photo-card a{width:27px;height:27px}.hero-actions{flex-wrap:wrap;gap:10px}.hero-foot{font-size:9px;margin-top:25px;gap:10px}.hero-location svg{width:13px}.hero-intro{font-size:11px;margin-top:18px}.belief-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-block:20px}.belief-inner>span{display:none}.belief-inner b{font-size:9px;gap:7px}.section{padding-block:62px}h2{font-size:35px;letter-spacing:-1.5px}.section-top{gap:25px}.section-intro{font-size:11px;max-width:240px}.why-grid{gap:20px;margin-top:33px}.why-grid article{padding-right:15px}.why-grid h3{font-size:16px}.why-grid p{font-size:10px}.why-grid a{font-size:9px;gap:5px}.feature-icon{width:40px;height:40px}.program-card{padding:18px;min-height:310px}.program-card h3{font-size:21px}.program-card-top{align-items:flex-start;gap:10px;margin-bottom:22px}.program-cat{padding:4px 6px;font-size:7px}.program-card p{font-size:10px}.program-tag{font-size:8px}.program-card-bottom a{font-size:9px;gap:4px}.program-card-bottom a svg{display:none}.program-card-bottom button{width:26px;height:26px}.program-help{font-size:10px}.program-help .text-link{font-size:10px}.life-section{gap:35px}.life-art{height:440px}.life-sticker{font-size:25px;right:-14px;padding:22px 40px 22px 20px}.life-copy h2{font-size:28px;letter-spacing:-1.2px}.life-lead{font-size:11px}.life-rows h3{font-size:12px}.life-rows p{font-size:10px}.life-rows{margin-block:20px}.life-rows>div{padding-block:13px}.life-copy .text-link{font-size:10px}.admission-grid{gap:35px}.checklist{padding:24px}.step{gap:18px;padding-bottom:26px}.step h3{font-size:16px}.step p{font-size:11px}.doc-list label{font-size:11px}.faq-section{gap:40px}.faq-list summary{font-size:12px}.services-section>.wrap{display:block}.service-links{margin-top:23px}.service-links a{min-width:0;padding:15px;gap:10px}.service-links a>svg:last-child{margin-left:auto}.contact-section{padding:35px;gap:35px}.contact-main h2{font-size:33px}.contact-main p{font-size:11px}.contact-details{min-width:245px}.contact-details .contact-phone{font-size:20px}.contact-details a,.contact-details p{font-size:10px}.contact-decoration{right:20px}.footer>span{display:none}}
+@media(max-width:600px){.wrap{width:calc(100% - 36px)}.utility{font-size:9px}.utility-inner{height:29px}.utility-inner>div{gap:11px}.utility-inner>span{gap:4px}.brand b{font-size:27px}.brand small{font-size:8px;margin-top:5px}.logo-box{width:40px;height:40px}.brand{gap:7px}.header-inner{height:72px;gap:10px}.header-cta{font-size:10px;padding:10px 12px;gap:6px}.header-cta svg{width:14px}.main-nav.is-open{top:72px}.hero{grid-template-columns:1fr;padding-top:29px;padding-bottom:35px;gap:30px}.hero .eyebrow{font-size:8px;letter-spacing:1px}.hero h1{font-size:57px;letter-spacing:-3.5px;margin-top:13px;line-height:1.04}.hero-spark{font-size:63px;margin-left:30px}.hero-intro{font-size:12px;max-width:350px;margin-top:22px}.hero-actions{gap:22px;margin-top:22px}.hero-actions .button{font-size:11px;padding:14px 16px}.hero-actions .text-link{font-size:11px}.hero-foot{font-size:10px;margin-top:23px}.hero-visual{height:375px;margin-left:13px;margin-right:8px;padding-bottom:17px}.hero-photo{border-top-left-radius:110px;object-position:center center}.photo-outline{border-top-left-radius:110px}.photo-card{left:-13px;right:18px;bottom:35px;padding:15px}.photo-card b{font-size:14px}.photo-card span:not(.photo-card-icon){font-size:9px}.photo-card-icon{width:37px;height:37px}.photo-top{font-size:9px;padding:8px 11px}.photo-caption{font-size:7px}.belief-inner{grid-template-columns:1fr;gap:12px;padding-block:21px}.belief-inner b{font-size:11px;gap:10px}.belief-inner>span{display:block;font-size:8px;margin-bottom:2px}.belief-inner svg{width:16px}.section{padding-block:48px}.eyebrow{font-size:8px;letter-spacing:1.3px}h2{font-size:33px;letter-spacing:-1.5px}.section h2{margin-top:12px}.section-top{display:block;margin-bottom:27px}.section-intro{font-size:12px;max-width:100%;margin-top:18px}.why-grid{grid-template-columns:1fr;gap:0;margin-top:28px}.why-grid article{border-right:0;border-bottom:1px solid var(--line);padding:23px 0;display:grid;grid-template-columns:43px 1fr;column-gap:16px}.why-grid article:first-child{padding-top:0}.why-grid article:last-child{padding-bottom:0}.why-grid .feature-icon{grid-row:1/4}.why-grid h3{font-size:18px;margin:2px 0 10px}.why-grid p{font-size:12px;max-width:100%}.why-grid a{font-size:10px;margin-top:15px}.programs-section .section-top .text-link{margin-top:18px;font-size:11px}.program-controls{display:block;margin-bottom:21px}.filter-tabs{gap:3px;flex-wrap:nowrap;overflow:auto;margin-right:-18px;padding-right:18px;scrollbar-width:thin;padding-bottom:10px}.filter-tabs button{font-size:10px;padding:9px 10px}.search-field{margin-top:9px;padding-block:4px}.search-field input{width:100%;font-size:12px}.program-grid{grid-template-columns:1fr;gap:13px}.program-card{min-height:265px;padding:24px}.program-card h3{font-size:25px;max-width:100%}.program-card p{font-size:12px}.program-tag{font-size:9px}.program-card-top{margin-bottom:19px}.program-cat{font-size:9px;padding:4px 9px}.program-card-bottom a{font-size:11px;gap:7px}.program-card-bottom a svg{display:block}.program-card-bottom{margin-top:19px;padding-top:15px}.program-card-bottom button{width:32px;height:32px}.program-help{display:block;line-height:1.9;font-size:11px;margin-top:20px}.program-help .text-link{font-size:11px;margin-top:9px}.life-section{grid-template-columns:1fr;gap:32px}.life-art{height:390px;margin-right:10px}.life-sticker{font-size:29px;padding:25px 49px 27px 24px;right:-11px}.life-copy h2{font-size:33px}.life-lead{font-size:12px}.life-rows{margin-block:22px}.life-rows>div{padding-block:17px}.life-rows h3{font-size:14px}.life-rows p{font-size:11px}.life-copy .text-link{font-size:12px}.admission-grid{grid-template-columns:1fr;gap:33px}.step{gap:20px;padding-bottom:28px}.step h3{font-size:18px}.step p{font-size:12px}.checklist{padding:25px}.checklist h3{font-size:24px}.checklist>p{font-size:12px}.doc-list{gap:15px}.doc-list label{font-size:13px}.check-download{font-size:12px;padding:12px}.checklist small{font-size:10px}.admission-note{align-items:flex-start;font-size:10px;line-height:1.9}.faq-section{grid-template-columns:1fr;gap:30px}.faq-section>div>p{font-size:12px;margin:17px 0 21px}.faq-list summary{font-size:13px;padding:21px 0}.faq-list details p{font-size:12px}.service-links{flex-direction:column;gap:9px;margin-top:23px}.service-links a{padding:17px;gap:15px}.service-links b{font-size:13px}.service-links small{font-size:10px}.services-section h2{font-size:26px}.services-section{padding-block:30px}.contact-section{display:block;padding:30px 26px;margin-block:38px 25px;border-radius:9px}.contact-main h2{font-size:35px;letter-spacing:-1.8px}.contact-main p{font-size:12px}.contact-details{margin-top:33px;border-top:1px solid #3e6e50;padding-top:25px;min-width:0}.contact-details .contact-phone{font-size:24px}.contact-details a,.contact-details p{font-size:12px}.contact-title{font-size:9px}.contact-details .contact-official{font-size:10px}.contact-decoration{font-size:270px;right:-125px;top:30px}.footer{align-items:flex-start;gap:20px;padding-bottom:27px}.footer>div:first-child{display:block}.footer p{font-size:8px;margin-top:9px}.footer-links{max-width:160px;flex-direction:column;align-items:flex-end;gap:13px;padding-top:6px}.footer-links a,.footer-links button{font-size:9px;text-align:right}.consult-dialog{padding:30px 23px}.consult-dialog h2{font-size:27px}.consult-form{margin-top:20px}.form-row{grid-template-columns:1fr;gap:14px}.consult-form label{font-size:12px}.consult-form input:not([type=checkbox]),.consult-form select,.consult-form textarea{font-size:14px;padding:11px}.consult-form .consent-label{font-size:11px}.field-hint{font-size:10px}.form-fine{font-size:10px}.privacy-panel{padding:30px 25px}.privacy-panel h2{font-size:25px}.privacy-panel p{font-size:12px}.desktop-br{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+.consult-dialog,.privacy-dialog{margin:auto;overflow:auto}.privacy-dialog{border:1px solid var(--line);color:var(--ink);width:min(540px,calc(100% - 30px))}.privacy-dialog::backdrop{background:#102a20b3;backdrop-filter:blur(4px)}
+[hidden]{display:none!important}body{line-height:1.6}button{font-family:inherit}
+[hidden]{display:none!important}.catalog-summary{font-size:12px;color:#64765a;margin:-15px 0 25px;max-width:720px;line-height:1.9}.level-filter{display:flex;align-items:center;gap:9px;font-size:11px;margin-bottom:20px;color:#697d5c}.level-filter select{padding:9px 12px;border:1px solid #cbd7bd;border-radius:6px;background:#fafbf6;color:#254835}.program-kz{font-size:11px;color:#849477;line-height:1.6;margin:8px 0 13px}.program-card .subject-note{font-size:10px;padding:11px;background:#eff3e7;border-radius:5px;margin-top:13px;line-height:1.7;flex:0}.catalog-message{grid-column:1/-1;text-align:center;padding:35px}.programs-section .program-card{min-height:330px}.catalog-source{font-size:11px;margin-top:15px;color:#6f835e;display:inline-flex;gap:7px;align-items:center}.guest-note{font-size:10px;color:#748666;padding:12px;background:#edf2e5;border-radius:6px;margin-top:16px}.guest-note a{text-decoration:underline}.error{color:#a44335}.form-success{padding:15px;background:#edf4e4;border:1px solid #d1dfc0;border-radius:7px;margin-top:15px;overflow-wrap:anywhere;font-size:12px}.program-duration{font-size:10px;color:#5b744c;margin-bottom:10px}.dialog-close{z-index:1}.consult-dialog,.privacy-dialog{margin:auto}.privacy-dialog p{font-size:12px;line-height:1.9;margin:15px 0;color:#6b805d}@media(max-width:600px){.program-card .subject-note{font-size:11px}.level-filter{align-items:flex-start;flex-direction:column;gap:7px}}
+  </style>
+  <link href="assets/logo.png" rel="icon"/>
+  <script>
+   // Каталог для просмотра HTML без сервера. На сервере используется database.txt.
+window.INITIAL_PROGRAMS = [
+  {
+    "id": "B01",
+    "nameRu": "Горное дело",
+    "nameKz": "Тау-кен ісі",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B02",
+    "nameRu": "Металлургия",
+    "nameKz": "Металлургия",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B03",
+    "nameRu": "Технологические машины и оборудование",
+    "nameKz": "Технологиялық машиналар мен жабдықтар",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B04",
+    "nameRu": "Транспорт, транспортная техника и технологии",
+    "nameKz": "Көлік, көлік техникасы және технологиялары",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B05",
+    "nameRu": "Геология и разведка месторождений полезных ископаемых",
+    "nameKz": "Геология және пайдалы қазбалар кен орындарын барлау",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B06",
+    "nameRu": "Автоматизация и управление",
+    "nameKz": "Автоматтандыру және басқару",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B07",
+    "nameRu": "Безопасность жизнедеятельности и защита окружающей среды",
+    "nameKz": "Тіршілік қауіпсіздігі және қоршаған ортаны қорғау",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B08",
+    "nameRu": "Обогащение полезных ископаемых",
+    "nameKz": "Пайдалы қазбаларды байыту",
+    "category": "technical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B09",
+    "nameRu": "Экономика",
+    "nameKz": "Экономика",
+    "category": "economics",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B10",
+    "nameRu": "Педагогика и методика начального обучения",
+    "nameKz": "Бастауыш оқытудың педагогикасы мен әдістемесі",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B11",
+    "nameRu": "Английский язык: два иностранных языка",
+    "nameKz": "Ағылшын тілі: екі шет тілі",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B12",
+    "nameRu": "Казахский язык и литература",
+    "nameKz": "Қазақ тілі мен әдебиеті",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B13",
+    "nameRu": "Русский язык и литература",
+    "nameKz": "Орыс тілі мен әдебиеті",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B14",
+    "nameRu": "Физическая культура и спорт",
+    "nameKz": "Дене шынықтыру және спорт",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B15",
+    "nameRu": "Изобразительное искусство и черчение",
+    "nameKz": "Бейнелеу өнері және сызу",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B16",
+    "nameRu": "Математика и физика",
+    "nameKz": "Математика және физика",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B17",
+    "nameRu": "Математика и информатика",
+    "nameKz": "Математика және информатика",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "B18",
+    "nameRu": "Биология и химия",
+    "nameKz": "Биология және химия",
+    "category": "pedagogical",
+    "level": "bachelor",
+    "subjectInfo": "Профильные предметы ЕНТ в буклете не указаны. Уточните комбинацию для выбранной программы в приёмной комиссии.",
+    "duration": "Срок обучения уточните в приёмной комиссии."
+  },
+  {
+    "id": "M01",
+    "nameRu": "Горное дело",
+    "nameKz": "Тау-кен ісі",
+    "category": "technical",
+    "level": "master",
+    "subjectInfo": "Вступительные испытания в магистратуру уточните в приёмной комиссии.",
+    "duration": "Научно-педагогическое направление — 2 года; профильное направление — 1 год."
+  },
+  {
+    "id": "M02",
+    "nameRu": "Геология и разведка месторождений полезных ископаемых",
+    "nameKz": "Геология және пайдалы қазбалар кен орындарын барлау",
+    "category": "technical",
+    "level": "master",
+    "subjectInfo": "Вступительные испытания в магистратуру уточните в приёмной комиссии.",
+    "duration": "Научно-педагогическое направление — 2 года; профильное направление — 1 год."
+  },
+  {
+    "id": "M03",
+    "nameRu": "Металлургия",
+    "nameKz": "Металлургия",
+    "category": "technical",
+    "level": "master",
+    "subjectInfo": "Вступительные испытания в магистратуру уточните в приёмной комиссии.",
+    "duration": "Научно-педагогическое направление — 2 года; профильное направление — 1 год."
+  }
+];
+  </script>
+ </head>
+ <body>
+  <div id="offline-banner" style="display:none;padding:13px 22px;background:#e5efca;color:#36552e;font:12px/1.8 Arial,sans-serif;text-align:center;">
+   Просмотр с диска. Для входа и сохранения обращений запустите START.bat. Код и база открываются через «Открыть с помощью → Блокнот».
+  </div>
+  <a class="skip-link" href="#main">
+   К содержанию
+  </a>
+  <div class="utility">
+   <div class="wrap utility-inner">
+    <span>
+     <svg aria-hidden="true" class="lucide lucide-map-pin" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+      </path>
+      <circle cx="12" cy="10" r="3">
+      </circle>
+     </svg>
+     Жезказган · Ұлытау
+    </span>
+    <div>
+     <a href="account.html">
+      Личный кабинет студента
+     </a>
+     <span class="utility-line">
+     </span>
+     <a href="admin.html">
+      Сотрудникам
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </div>
+   </div>
+  </div>
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a aria-label="ЖезУ — на главную" class="brand" href="#">
+     <span class="logo-box">
+      <img alt="Эмблема ЖезУ" src="assets/logo.png"/>
+     </span>
+     <span>
+      <b>
+       ZhezU
+       <span class="brand-dot">
+        .
+       </span>
+      </b>
+      <small>
+       имени О. А. Байконурова
+      </small>
+     </span>
+    </a>
+    <nav aria-label="Основная навигация" class="main-nav">
+     <a href="#why">
+      Почему ЖезУ
+     </a>
+     <a href="#programs">
+      Направления
+     </a>
+     <a href="#admission">
+      Как поступить
+     </a>
+     <a href="#life">
+      Студенческая жизнь
+     </a>
+    </nav>
+    <button class="button button-small header-cta" data-consult="">
+     Хочу в ЖезУ
+     <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 7h10v10">
+      </path>
+      <path d="M7 17 17 7">
+      </path>
+     </svg>
+    </button>
+    <button aria-expanded="false" aria-label="Открыть меню" class="menu-toggle">
+     <svg aria-hidden="true" class="lucide lucide-menu" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 5h16">
+      </path>
+      <path d="M4 12h16">
+      </path>
+      <path d="M4 19h16">
+      </path>
+     </svg>
+    </button>
+   </div>
+  </header>
+  <main id="main">
+   <section class="hero wrap">
+    <div class="hero-copy">
+     <div class="eyebrow">
+      <span class="tiny-star">
+       ✳
+      </span>
+      УНИВЕРСИТЕТ ТВОИХ ВОЗМОЖНОСТЕЙ
+     </div>
+     <h1>
+      Большое будущее
+      <br/>
+      начинается
+      <br/>
+      <span class="hero-underline">
+       с тебя.
+      </span>
+      <span class="hero-spark">
+       ✳
+      </span>
+     </h1>
+     <p class="hero-intro">
+      Найди своё дело, своих людей и свой путь.
+      <br class="desktop-br"/>
+      В Жезказганском университете имени О. А. Байконурова.
+     </p>
+     <div class="hero-actions">
+      <a class="button" href="#programs">
+       Найти своё направление
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+      <a class="text-link" href="#admission">
+       Как поступить
+       <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="m12 5 7 7-7 7">
+        </path>
+       </svg>
+      </a>
+     </div>
+     <div class="hero-foot">
+      <span class="hero-location">
+       <svg aria-hidden="true" class="lucide lucide-map-pin" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+        </path>
+        <circle cx="12" cy="10" r="3">
+        </circle>
+       </svg>
+       В сердце Ұлытау
+      </span>
+      <span class="hero-foot-line">
+      </span>
+      <span>
+       Твоё место для роста
+      </span>
+     </div>
+    </div>
+    <div class="hero-visual">
+     <div class="photo-outline">
+     </div>
+     <img alt="Иллюстрация: студенты общаются в университетском дворе" class="hero-photo" fetchpriority="high" src="assets/student-life.webp"/>
+     <div class="photo-top">
+      <span class="live-dot">
+      </span>
+      Больше, чем учёба
+     </div>
+     <div class="photo-card">
+      <span class="photo-card-icon">
+       <svg aria-hidden="true" class="lucide lucide-users" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+        </path>
+        <path d="M16 3.128a4 4 0 0 1 0 7.744">
+        </path>
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+        </path>
+        <circle cx="9" cy="7" r="4">
+        </circle>
+       </svg>
+      </span>
+      <div>
+       <b>
+        Здесь находят своих
+       </b>
+       <span>
+        Знания. Друзья. Возможности.
+       </span>
+      </div>
+      <a aria-label="Узнать о студенческой жизни" href="#life">
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </div>
+     <span class="photo-caption">
+      Иллюстрация студенческой жизни
+     </span>
+    </div>
+   </section>
+   <div class="belief-strip">
+    <div class="wrap belief-inner">
+     <span>
+      ТВОЙ ВЫБОР. ТВОЁ БУДУЩЕЕ.
+     </span>
+     <b>
+      <svg aria-hidden="true" class="lucide lucide-graduation-cap" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+       </path>
+       <path d="M22 10v6">
+       </path>
+       <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5">
+       </path>
+      </svg>
+      Образование с характером
+     </b>
+     <b>
+      <svg aria-hidden="true" class="lucide lucide-leaf" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z">
+       </path>
+       <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12">
+       </path>
+      </svg>
+      Пространство для роста
+     </b>
+     <b>
+      <svg aria-hidden="true" class="lucide lucide-heart" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+       </path>
+      </svg>
+      Люди, которые рядом
+     </b>
+    </div>
+   </div>
+   <section class="section wrap why-section" id="why">
+    <div class="section-top">
+     <div>
+      <span class="eyebrow">
+       01 / ЗНАКОМСТВО С ЖЕЗУ
+      </span>
+      <h2>
+       Ближе к дому.
+       <br/>
+       <span class="muted-heading">
+        Больше возможностей.
+       </span>
+      </h2>
+     </div>
+     <p class="section-intro">
+      Здесь университетская жизнь становится твоей историей — от первой пары до первого профессионального опыта.
+     </p>
+    </div>
+    <div class="why-grid">
+     <article>
+      <span class="feature-icon">
+       <svg aria-hidden="true" class="lucide lucide-hammer" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9">
+        </path>
+        <path d="m18 15 4-4">
+        </path>
+        <path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5">
+        </path>
+       </svg>
+      </span>
+      <h3>
+       Учёба с опорой на практику
+      </h3>
+      <p>
+       Технические, педагогические и социальные направления. Изучай профессию в регионе, где работают промышленные предприятия и развиваются школы.
+      </p>
+      <a href="https://zhezu.edu.kz/ru/academics/departments" rel="noreferrer" target="_blank">
+       Познакомиться с кафедрами
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </article>
+     <article>
+      <span class="feature-icon">
+       <svg aria-hidden="true" class="lucide lucide-building2 lucide-building-2" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 12h4">
+        </path>
+        <path d="M10 8h4">
+        </path>
+        <path d="M14 21v-3a2 2 0 0 0-4 0v3">
+        </path>
+        <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2">
+        </path>
+        <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16">
+        </path>
+       </svg>
+      </span>
+      <h3>
+       Своё место в новом городе
+      </h3>
+      <p>
+       Общежитие, библиотека и служба поддержки студентов помогут устроить повседневную жизнь и сосредоточиться на главном.
+      </p>
+      <a href="https://zhezu.edu.kz/ru/life/dormitories" rel="noreferrer" target="_blank">
+       Об общежитии
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </article>
+     <article>
+      <span class="feature-icon">
+       <svg aria-hidden="true" class="lucide lucide-sparkles" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+        </path>
+        <path d="M20 2v4">
+        </path>
+        <path d="M22 4h-4">
+        </path>
+        <circle cx="4" cy="20" r="2">
+        </circle>
+       </svg>
+      </span>
+      <h3>
+       Возможность проявить себя
+      </h3>
+      <p>
+       Участвуй в студенческих проектах, научных событиях, творчестве и спорте. Пробуй новое и собирай опыт за пределами аудитории.
+      </p>
+      <a href="#life">
+       Жизнь за пределами пар
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </article>
+    </div>
+   </section>
+   <section class="programs-section section" id="programs">
+    <div class="wrap">
+     <div class="section-top">
+      <div>
+       <span class="eyebrow">
+        02 / НАЙДИ СВОЙ ПУТЬ
+       </span>
+       <h2>
+        Кем хочешь стать
+        <span class="serif">
+         ты?
+        </span>
+       </h2>
+      </div>
+      <a class="text-link" href="https://zhezu.edu.kz/ru/academics" rel="noreferrer" target="_blank">
+       Полный каталог программ
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </div>
+     <p class="catalog-summary">
+      18 программ бакалавриата и 3 программы магистратуры из буклета. «Математика и физика», «Математика и информатика», «Биология и химия» — названия программ обучения. Комбинации профильных предметов ЕНТ в буклете не указаны.
+     </p>
+     <div class="program-controls">
+      <div aria-label="Фильтр направлений" class="filter-tabs">
+       <button aria-pressed="true" class="active" type="button">
+        Все направления
+       </button>
+       <button aria-pressed="false" type="button">
+        Технические
+       </button>
+       <button aria-pressed="false" type="button">
+        Педагогические
+       </button>
+       <button aria-pressed="false" type="button">
+        Экономика
+       </button>
+      </div>
+      <label class="search-field">
+       <svg aria-hidden="true" class="lucide lucide-search" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="m21 21-4.34-4.34">
+        </path>
+        <circle cx="11" cy="11" r="8">
+        </circle>
+       </svg>
+       <span class="sr-only">
+        Поиск направления
+       </span>
+       <input placeholder="Что тебе интересно?" value=""/>
+      </label>
+     </div>
+     <label class="level-filter">
+      Уровень обучения
+      <select aria-label="Уровень обучения" id="program-level">
+       <option value="bachelor">
+        Бакалавриат
+       </option>
+       <option value="master">
+        Магистратура
+       </option>
+       <option value="all">
+        Все уровни
+       </option>
+      </select>
+     </label>
+     <div aria-live="polite" class="program-grid">
+      <p class="catalog-message">
+       Загружаем программы из базы…
+      </p>
+     </div>
+     <a class="catalog-source" href="assets/programs-brochure.png" target="_blank">
+      Посмотреть исходный буклет ↗
+     </a>
+     <div class="program-help">
+      <span>
+       <b>
+        Пока не определился?
+       </b>
+       Это нормально. Поможем разобраться в направлениях и требованиях.
+      </span>
+      <button class="text-link" data-consult="">
+       Помогите с выбором
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </button>
+     </div>
+    </div>
+   </section>
+   <section class="section wrap life-section" id="life">
+    <div class="life-art">
+     <img alt="Иллюстрация студенческого общения и дружбы" loading="lazy" src="assets/student-life.webp"/>
+     <div class="life-sticker">
+      Учись.
+      <br/>
+      Дружи.
+      <br/>
+      <i>
+       Создавай.
+      </i>
+      <svg aria-hidden="true" class="lucide lucide-sparkles" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
+       <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+       </path>
+       <path d="M20 2v4">
+       </path>
+       <path d="M22 4h-4">
+       </path>
+       <circle cx="4" cy="20" r="2">
+       </circle>
+      </svg>
+     </div>
+     <span class="life-art-label">
+      ТВОЯ НОВАЯ ГЛАВА
+     </span>
+    </div>
+    <div class="life-copy">
+     <span class="eyebrow">
+      03 / СТУДЕНЧЕСКАЯ ЖИЗНЬ
+     </span>
+     <h2>
+      Лучшие воспоминания
+      <br/>
+      <span class="muted-heading">
+       тоже в расписании.
+      </span>
+     </h2>
+     <p class="life-lead">
+      Университет — это люди, идеи и события, которые остаются с тобой надолго.
+     </p>
+     <div class="life-rows">
+      <div>
+       <svg aria-hidden="true" class="lucide lucide-users" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+        </path>
+        <path d="M16 3.128a4 4 0 0 1 0 7.744">
+        </path>
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+        </path>
+        <circle cx="9" cy="7" r="4">
+        </circle>
+       </svg>
+       <span>
+        <h3>
+         Сообщество и инициативы
+        </h3>
+        <p>
+         Студенческие организации, волонтёрство и совместные проекты.
+        </p>
+       </span>
+      </div>
+      <div>
+       <svg aria-hidden="true" class="lucide lucide-trophy" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2">
+        </path>
+        <path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2">
+        </path>
+        <path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3">
+        </path>
+        <path d="M4 22h16">
+        </path>
+        <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z">
+        </path>
+        <path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3">
+        </path>
+       </svg>
+       <span>
+        <h3>
+         Спорт и творчество
+        </h3>
+        <p>
+         Возможности для движения, самовыражения и новых увлечений.
+        </p>
+       </span>
+      </div>
+      <div>
+       <svg aria-hidden="true" class="lucide lucide-book-open" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 5v16">
+        </path>
+        <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z">
+        </path>
+       </svg>
+       <span>
+        <h3>
+         Наука и первый опыт
+        </h3>
+        <p>
+         Научные события, практика и знакомство с профессиональной средой.
+        </p>
+       </span>
+      </div>
+     </div>
+     <a class="text-link" href="https://zhezu.edu.kz/ru/university/media" rel="noreferrer" target="_blank">
+      Заглянуть в жизнь ЖезУ
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </div>
+   </section>
+   <section class="admission-section section" id="admission">
+    <div class="wrap">
+     <div class="section-top">
+      <div>
+       <span class="eyebrow">
+        04 / ВСЁ ПОНЯТНО С ПЕРВОГО ШАГА
+       </span>
+       <h2>
+        Твой маршрут в ЖезУ
+       </h2>
+      </div>
+      <p class="section-intro">
+       Разложили поступление на простые шаги.
+       <br/>
+       Приёмная комиссия поможет на каждом из них.
+      </p>
+     </div>
+     <div class="admission-grid">
+      <div class="steps">
+       <div class="step">
+        <span>
+         01
+        </span>
+        <div>
+         <h3>
+          Выбери направление
+         </h3>
+         <p>
+          Посмотри программы и узнай, какие профильные предметы ЕНТ и дополнительные экзамены нужны.
+         </p>
+        </div>
+       </div>
+       <div class="step">
+        <span>
+         02
+        </span>
+        <div>
+         <h3>
+          Подготовь документы
+         </h3>
+         <p>
+          Сверься с предварительным списком справа. Полный перечень и требования уточни в комиссии.
+         </p>
+        </div>
+       </div>
+       <div class="step">
+        <span>
+         03
+        </span>
+        <div>
+         <h3>
+          Подай заявление
+         </h3>
+         <p>
+          Согласуй способ подачи и сроки с приёмной комиссией. Консультация на этом сайте — первый контакт.
+         </p>
+        </div>
+       </div>
+       <div class="step">
+        <span>
+         04
+        </span>
+        <div>
+         <h3>
+          Стань частью ЖезУ
+         </h3>
+         <p>
+          Получи официальное подтверждение зачисления и узнай о заселении, расписании и первых встречах.
+         </p>
+        </div>
+       </div>
+      </div>
+      <aside class="checklist">
+       <div class="checklist-top">
+        <span class="feature-icon">
+         <svg aria-hidden="true" class="lucide lucide-check" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 9 17l-5-5">
+          </path>
+         </svg>
+        </span>
+        <span class="check-count">
+         0 из 5 готово
+        </span>
+       </div>
+       <h3>
+        Собираем документы
+       </h3>
+       <p>
+        Отмечай то, что уже подготовил.
+        <br/>
+        Твой список сохранится в этом браузере.
+       </p>
+       <div class="progress-track">
+        <span style="width:0%">
+        </span>
+       </div>
+       <div class="doc-list">
+        <label>
+         <input type="checkbox"/>
+         <span>
+          Удостоверение личности
+         </span>
+        </label>
+        <label>
+         <input type="checkbox"/>
+         <span>
+          Аттестат или диплом
+         </span>
+        </label>
+        <label>
+         <input type="checkbox"/>
+         <span>
+          Сертификат ЕНТ
+         </span>
+        </label>
+        <label>
+         <input type="checkbox"/>
+         <span>
+          Медицинская справка 075/у
+         </span>
+        </label>
+        <label>
+         <input type="checkbox"/>
+         <span>
+          Фотографии 3 × 4
+         </span>
+        </label>
+       </div>
+       <button class="check-download">
+        <svg aria-hidden="true" class="lucide lucide-download" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+         <path d="M12 15V3">
+         </path>
+         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+         </path>
+         <path d="m7 10 5 5 5-5">
+         </path>
+        </svg>
+        Скачать мой список
+       </button>
+       <small>
+        Это предварительный список.
+        <a href="https://zhezu.edu.kz/ru/admission" rel="noreferrer" target="_blank">
+         Проверь полный перечень ↗
+        </a>
+       </small>
+      </aside>
+     </div>
+     <div class="admission-note">
+      <svg aria-hidden="true" class="lucide lucide-shield-check" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+       </path>
+       <path d="m9 12 2 2 4-4">
+       </path>
+      </svg>
+      <p>
+       <b>
+        Сроки, гранты и баллы — по актуальным правилам.
+       </b>
+       Условия различаются по программам.
+       <a href="https://zhezu.edu.kz/ru/admission/scholarships" rel="noreferrer" target="_blank">
+        Узнать о грантах
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </a>
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section wrap faq-section" id="faq">
+    <div>
+     <span class="eyebrow">
+      05 / ОТВЕТЫ РЯДОМ
+     </span>
+     <h2>
+      Остались
+      <br/>
+      <span class="muted-heading">
+       вопросы?
+      </span>
+     </h2>
+     <p>
+      Не нужно разбираться во всём одному.
+      <br/>
+      Мы поможем сделать первый шаг.
+     </p>
+     <button class="button button-small" data-consult="">
+      Задать свой вопрос
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </button>
+    </div>
+    <div class="faq-list">
+     <details>
+      <summary>
+       С чего начать, если я ещё не выбрал направление?
+       <span>
+        +
+       </span>
+      </summary>
+      <p>
+       Посмотрите направления обучения и оставьте запрос на консультацию. Приёмная комиссия поможет соотнести ваши интересы, профильные предметы ЕНТ и доступные программы.
+      </p>
+     </details>
+     <details>
+      <summary>
+       Можно ли поступить на грант?
+       <span>
+        +
+       </span>
+      </summary>
+      <p>
+       Поступление на государственный грант проходит по конкурсу. Условия, квоты и требования зависят от программы и текущей кампании. Минимальный балл не гарантирует грант. Актуальные правила опубликованы в разделе «Образовательные гранты» официального сайта.
+      </p>
+     </details>
+     <details>
+      <summary>
+       Какие предметы ЕНТ нужно сдавать?
+       <span>
+        +
+       </span>
+      </summary>
+      <p>
+       Комбинация профильных предметов зависит от группы образовательных программ. Для педагогических и творческих направлений могут потребоваться дополнительные экзамены. Уточните требования к выбранной программе в приёмной комиссии до регистрации на ЕНТ.
+      </p>
+     </details>
+     <details>
+      <summary>
+       Есть ли общежитие для иногородних?
+       <span>
+        +
+       </span>
+      </summary>
+      <p>
+       В университете есть студенческое общежитие: Wi-Fi, кухни, прачечная, компьютерный кабинет и круглосуточная охрана. Наличие мест, стоимость и порядок заселения уточняйте в университете.
+      </p>
+     </details>
+     <details>
+      <summary>
+       Что нужно выпускнику колледжа?
+       <span>
+        +
+       </span>
+      </summary>
+      <p>
+       Приёмная комиссия рассмотрит ваш диплом и подскажет, возможно ли обучение по сокращённой программе на родственном направлении и какие условия поступления действуют.
+      </p>
+     </details>
+     <details>
+      <summary>
+       Когда подавать документы?
+       <span>
+        +
+       </span>
+      </summary>
+      <p>
+       Сроки следующего набора и расписание экзаменов нужно уточнить в приёмной комиссии. Здесь вы можете заранее выбрать направление и оставить запрос на консультацию.
+      </p>
+     </details>
+    </div>
+   </section>
+   <section class="services-section" id="services">
+    <div class="wrap">
+     <div>
+      <span class="eyebrow">
+       УЖЕ СТУДЕНТ ЖЕЗУ?
+      </span>
+      <h2>
+       Всё нужное под рукой
+      </h2>
+     </div>
+     <div class="service-links">
+      <a href="https://platonus.zhezu.kz" rel="noreferrer" target="_blank">
+       <svg aria-hidden="true" class="lucide lucide-graduation-cap" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+        </path>
+        <path d="M22 10v6">
+        </path>
+        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5">
+        </path>
+       </svg>
+       <span>
+        <b>
+         Platonus
+        </b>
+        <small>
+         Личный кабинет
+        </small>
+       </span>
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+      <a href="https://zhezu.edu.kz/ru/students/schedule" rel="noreferrer" target="_blank">
+       <svg aria-hidden="true" class="lucide lucide-clock" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10">
+        </circle>
+        <path d="M12 6v6l4 2">
+        </path>
+       </svg>
+       <span>
+        <b>
+         Расписание
+        </b>
+        <small>
+         Планируй свой день
+        </small>
+       </span>
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+      <a href="https://zhezu.edu.kz/ru/students/support" rel="noreferrer" target="_blank">
+       <svg aria-hidden="true" class="lucide lucide-heart" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+        </path>
+       </svg>
+       <span>
+        <b>
+         Поддержка
+        </b>
+        <small>
+         Помощь студентам
+        </small>
+       </span>
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="wrap contact-section" id="consultation">
+    <div class="contact-main">
+     <span class="eyebrow">
+      ТВОЯ ИСТОРИЯ ТОЛЬКО НАЧИНАЕТСЯ
+     </span>
+     <h2>
+      Увидимся
+      <span class="serif">
+       в ЖезУ.
+      </span>
+     </h2>
+     <p>
+      Расскажи, что тебе интересно, — поможем выбрать направление
+      <br class="desktop-br"/>
+      и разобраться с поступлением.
+     </p>
+     <button class="button button-lime" data-consult="">
+      Получить консультацию
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </button>
+    </div>
+    <div class="contact-details">
+     <span class="contact-title">
+      ПРИЁМНАЯ КОМИССИЯ
+     </span>
+     <a class="contact-phone" href="tel:+77102410461">
+      +7 (7102) 41-04-61
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+     <a href="mailto:zhezu_priem@mail.ru">
+      <svg aria-hidden="true" class="lucide lucide-mail" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+       <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7">
+       </path>
+       <rect height="16" rx="2" width="20" x="2" y="4">
+       </rect>
+      </svg>
+      zhezu_priem@mail.ru
+     </a>
+     <p>
+      <svg aria-hidden="true" class="lucide lucide-map-pin" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+       </path>
+       <circle cx="12" cy="10" r="3">
+       </circle>
+      </svg>
+      <span>
+       Жезказган, пр. Алашахана, 1Б
+       <br/>
+       Главный корпус, кабинет 108
+      </span>
+     </p>
+     <p>
+      <svg aria-hidden="true" class="lucide lucide-clock" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="12" cy="12" r="10">
+       </circle>
+       <path d="M12 6v6l4 2">
+       </path>
+      </svg>
+      Пн–Пт, 09:00–18:00
+     </p>
+     <a class="contact-official" href="https://zhezu.edu.kz/ru/admission/contact" rel="noreferrer" target="_blank">
+      Контакты на официальном сайте
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </div>
+    <span aria-hidden="true" class="contact-decoration">
+     ✳
+    </span>
+   </section>
+  </main>
+  <footer class="wrap footer">
+   <div>
+    <a class="footer-wordmark" href="#">
+     ZhezU.
+    </a>
+    <p>
+     Жезказганский университет
+     <br/>
+     имени О. А. Байконурова
+    </p>
+   </div>
+   <span>
+    Твоё будущее начинается с тебя.
+   </span>
+   <div class="footer-links">
+    <a href="https://zhezu.edu.kz/ru" rel="noreferrer" target="_blank">
+     Официальный сайт
+     <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 7h10v10">
+      </path>
+      <path d="M7 17 17 7">
+      </path>
+     </svg>
+    </a>
+    <button data-privacy="">
+     Об обработке данных
+    </button>
+    <a href="admin.html">
+     Вход для сотрудников
+     <svg aria-hidden="true" class="lucide lucide-shield-check" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+      </path>
+      <path d="m9 12 2 2 4-4">
+      </path>
+     </svg>
+    </a>
+   </div>
+  </footer>
+  <dialog aria-labelledby="consult-title" class="consult-dialog" id="consult-dialog">
+   <button aria-label="Закрыть" class="dialog-close" data-close="consult-dialog" type="button">
+    ×
+   </button>
+   <span class="eyebrow">
+    ПЕРВЫЙ ШАГ В ЖЕЗУ
+   </span>
+   <h2 id="consult-title">
+    Давай знакомиться
+   </h2>
+   <p class="dialog-intro">
+    Оставь контакт и вопрос о поступлении. Это запрос на консультацию, а не заявление на зачисление.
+   </p>
+   <form class="consult-form" id="inquiry-form">
+    <label>
+     Имя и фамилия *
+     <input autocomplete="name" maxlength="120" minlength="2" name="name" required=""/>
+    </label>
+    <div class="form-row">
+     <label>
+      Телефон
+      <input autocomplete="tel" maxlength="40" name="phone" placeholder="+7 …" type="tel"/>
+     </label>
+     <label>
+      Электронная почта
+      <input autocomplete="email" maxlength="180" name="email" placeholder="you@example.kz" type="email"/>
+     </label>
+    </div>
+    <small class="field-hint">
+     Укажи телефон или электронную почту для ответа.
+    </small>
+    <label>
+     Программа обучения
+     <select id="inquiry-program" name="program">
+      <option value="">
+       Пока выбираю
+      </option>
+     </select>
+    </label>
+    <label>
+     Твой вопрос
+     <textarea maxlength="2000" name="message" rows="3"></textarea>
+    </label>
+    <label class="consent-label">
+     <input name="consent" required="" type="checkbox"/>
+     <span>
+      Согласен на обработку указанных данных для ответа на запрос.
+      <button data-privacy="" type="button">
+       Подробнее
+      </button>
+     </span>
+    </label>
+    <p class="form-error" hidden="" id="inquiry-error" role="alert">
+    </p>
+    <button class="button submit-button" type="submit">
+     Отправить запрос ↗
+    </button>
+    <p class="form-fine">
+     Не указывай ИИН и номера документов. Чтобы видеть статус, отправляй обращения после входа в аккаунт.
+    </p>
+   </form>
+   <p class="guest-note">
+    <a href="login.html">
+     Войти в личный кабинет
+    </a>
+    , чтобы сохранить обращение за своим аккаунтом.
+   </p>
+   <div class="form-success" hidden="" id="inquiry-success" role="status">
+   </div>
+  </dialog>
+  <dialog aria-labelledby="privacy-title" class="privacy-panel privacy-dialog" id="privacy-dialog">
+   <button aria-label="Закрыть" class="dialog-close" data-close="privacy-dialog">
+    ×
+   </button>
+   <span class="eyebrow">
+    ТВОИ ДАННЫЕ
+   </span>
+   <h2 id="privacy-title">
+    Об обработке обращения
+   </h2>
+   <p>
+    Имя, контакт, выбранная программа и вопрос сохраняются в базе приёмной комиссии для консультации о поступлении.
+   </p>
+   <p>
+    Сотрудники с разрешённой ролью видят обращения. Студент в своём кабинете видит только обращения, отправленные после входа в его аккаунт. Внутренние заметки ему недоступны.
+   </p>
+   <p>
+    Для уточнения обработки или удаления обращения свяжись с приёмной комиссией и укажи номер обращения.
+   </p>
+   <button class="button button-small" data-close="privacy-dialog">
+    Понятно
+   </button>
+  </dialog>
+  <script>
+   /* common.js */
+'use strict';
+window.ZhezU={
+ async api(path,options={}){
+ // При открытии HTML с диска каталог читается из встроенной копии.
+ // Данные пользователей и закрытый кабинет всегда обслуживаются сервером.
+ if(location.protocol==='file:'){
+   if(path==='/api/programs' && !options.method)return {programs:window.INITIAL_PROGRAMS||[]};
+   if(path==='/api/auth/me' && !options.method)return {user:null};
+   throw new Error('Для сохранения данных и входа в кабинет запустите START.bat из распакованного архива.');
+ }
+const response=await fetch(path,{credentials:'same-origin',...options,headers:{'Content-Type':'application/json',...(options.headers||{})},body:options.body===undefined?undefined:JSON.stringify(options.body)});const body=await response.json().catch(()=>({}));if(!response.ok){const error=new Error(body.error||'Не удалось выполнить запрос. Попробуйте ещё раз.');error.status=response.status;throw error;}return body;},
+ escape(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));},
+ date(value){if(!value)return 'Не указана';const d=new Date(value);return Number.isNaN(d.getTime())?'Не указана':d.toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'});},
+ statuses:{new:'Новое обращение',review:'На проверке',accepted:'Документы приняты',enrolled:'Зачислен'},
+ async logout(){await this.api('/api/auth/logout',{method:'POST',body:{}});location.href='/login.html';}
+};
+  </script>
+  <script>
+   /* home.js */
+'use strict';
+(()=>{
+const {api,escape:e}=ZhezU;let programs=[],category='Все направления';const cats={technical:'Технические',pedagogical:'Педагогические',economics:'Экономика'};
+const search=document.querySelector('.search-field input'),level=document.querySelector('#program-level'),grid=document.querySelector('.program-grid'),dialog=document.querySelector('#consult-dialog'),privacy=document.querySelector('#privacy-dialog'),form=document.querySelector('#inquiry-form');
+function render(){const q=search.value.trim().toLocaleLowerCase();const filtered=programs.filter(p=>(category==='Все направления'||cats[p.category]===category)&&(level.value==='all'||p.level===level.value)&&(p.nameRu+' '+p.nameKz).toLocaleLowerCase().includes(q));grid.innerHTML=filtered.length?filtered.map(p=>`<article class="program-card"><div class="program-card-top"><span class="program-icon" aria-hidden="true">${p.level==='master'?'▧':'✦'}</span><span class="program-cat">${e(cats[p.category]||p.category)}</span></div><span class="program-tag">${p.level==='master'?'МАГИСТРАТУРА':'БАКАЛАВРИАТ'} · ПО БУКЛЕТУ</span><h3>${e(p.nameRu)}</h3><div class="program-kz" lang="kk">${e(p.nameKz)}</div>${p.duration?`<div class="program-duration">${e(p.duration)}</div>`:''}<p class="subject-note">${e(p.subjectInfo||'Профильные предметы ЕНТ в буклете не указаны. Уточните требования в приёмной комиссии.')}</p><div class="program-card-bottom"><span style="font-size:11px">Узнать о поступлении</span><button data-program-id="${e(p.id)}" aria-label="Консультация: ${e(p.nameRu)}">↗</button></div></article>`).join(''):'<div class="catalog-message"><h3>Ничего не найдено</h3><p>Попробуй другое название или измени фильтры.</p></div>';}
+async function load(){try{programs=(await api('/api/programs')).programs;render();const select=document.querySelector('#inquiry-program');for(const p of programs){const option=document.createElement('option');option.value=p.id;option.textContent=p.nameRu+' — '+(p.level==='master'?'магистратура':'бакалавриат');select.append(option);}}catch(err){grid.innerHTML='<p class="catalog-message error">'+e(err.message)+'</p>';}}
+function consult(id){const program=programs.find(p=>String(p.id)===String(id));document.querySelector('#inquiry-program').value=program?program.id:'';document.querySelector('#inquiry-success').hidden=true;document.querySelector('#inquiry-error').hidden=true;form.hidden=false;dialog.showModal();}
+document.addEventListener('click',event=>{const target=event.target.closest('button,a');if(!target)return;if(target.hasAttribute('data-program-id'))consult(target.dataset.programId);if(target.hasAttribute('data-consult'))consult();if(target.hasAttribute('data-privacy'))privacy.showModal();if(target.dataset.close)document.getElementById(target.dataset.close).close();});
+for(const modal of [dialog,privacy])modal.addEventListener('click',event=>{if(event.target===modal)modal.close();});
+document.querySelectorAll('.filter-tabs button').forEach(b=>b.addEventListener('click',()=>{category=b.textContent;document.querySelectorAll('.filter-tabs button').forEach(x=>{x.classList.toggle('active',b===x);x.setAttribute('aria-pressed',String(b===x));});render();}));search.addEventListener('input',render);level.addEventListener('change',render);
+const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('.main-nav');menu.addEventListener('click',()=>{nav.classList.toggle('is-open');menu.setAttribute('aria-expanded',String(nav.classList.contains('is-open')));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('is-open')));
+const boxes=[...document.querySelectorAll('.doc-list input')];try{const saved=JSON.parse(localStorage.getItem('zhezu-checklist')||'[]');boxes.forEach((b,i)=>b.checked=!!saved[i]);}catch{}function updateDocs(){const count=boxes.filter(b=>b.checked).length;document.querySelector('.check-count').textContent=count+' из '+boxes.length+' готово';document.querySelector('.progress-track span').style.width=(count/boxes.length*100)+'%';try{localStorage.setItem('zhezu-checklist',JSON.stringify(boxes.map(b=>b.checked)));}catch{}}boxes.forEach(b=>b.addEventListener('change',updateDocs));updateDocs();
+document.querySelector('.check-download').addEventListener('click',()=>{const text='ЖезУ — мой список документов\n\n'+boxes.map(b=>(b.checked?'[✓] ':'[ ] ')+b.closest('label').textContent.trim()).join('\n')+'\n\nПредварительный список. Полный перечень уточните в приёмной комиссии.';const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'}));a.download='ZhezU_documents.txt';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);});
+form.addEventListener('submit',async event=>{event.preventDefault();const button=form.querySelector('[type=submit]'),error=document.querySelector('#inquiry-error');button.disabled=true;error.hidden=true;const f=new FormData(form);try{if(!String(f.get('phone')||'').trim()&&!String(f.get('email')||'').trim())throw new Error('Укажи телефон или электронную почту.');const response=await api('/api/inquiries',{method:'POST',body:{name:f.get('name'),phone:f.get('phone'),email:f.get('email'),program:programs.find(p=>p.id===f.get('program'))?.nameRu||'',programId:f.get('program'),message:f.get('message'),consent:f.get('consent')==='on'}});const success=document.querySelector('#inquiry-success');success.textContent='Обращение сохранено. Номер: '+response.reference+'. Комиссия сможет связаться по указанному контакту.';success.hidden=false;form.hidden=true;}catch(err){error.textContent=err.message;error.hidden=false;}finally{button.disabled=false;}});
+load();if(location.hash==='#consultation')consult();
+})();
+  </script>
+  <script>
+   if(location.protocol==='file:')document.getElementById('offline-banner').style.display='block';
+  </script>
+ </body>
+</html>
